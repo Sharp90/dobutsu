@@ -14,6 +14,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+
     </head>
     <body>
         <header>
@@ -38,8 +39,9 @@
             </div>
         </nav>
         <section class="page-section cta">
+          <div style="text-align : center;">
             <div id="unity-container" class="unity-desktop">
-                <canvas id="unity-canvas" width=960 height=600></canvas>
+                <canvas id="unity-canvas" width=960 height=600 style="vertical-align: middle;"></canvas>
                 <div id="unity-loading-bar">
                   <div id="unity-logo"></div>
                   <div id="unity-progress-bar-empty">
@@ -50,9 +52,10 @@
                 <div id="unity-footer">
                   <div id="unity-webgl-logo"></div>
                   <div id="unity-fullscreen-button"></div>
-                  <div id="unity-build-title">RL</div>
+                  <div id="unity-build-title">Play!</div>
                 </div>
               </div>
+            </div>
         </section>
         <script>
             var container = document.querySelector("#unity-container");
@@ -158,7 +161,7 @@
             </div>
         </section-->
         <footer class="footer text-faded text-center py-5">
-            <div class="container"><p class="m-0 small">Copyright &copy; Your Website 2022</p></div>
+            <div class="container"><p class="m-0 small">Copyright &copy; Safari 2022</p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
